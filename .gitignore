@@ -1,2 +1,6 @@
 Library/**
 Temp/**
+MapEditor.sln
+MapEditor.csproj
+.vs/MapEditor/v15/.suo
+MapEditor.Editor.csproj
