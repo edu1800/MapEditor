@@ -1,0 +1,4 @@
+Default$True
+Wall$True
+Floor$True
+Obstacle$True

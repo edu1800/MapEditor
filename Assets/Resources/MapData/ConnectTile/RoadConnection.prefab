@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 440186}
+  - 114: {fileID: 11463374}
+  m_Layer: 0
+  m_Name: RoadConnection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440186
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.08983421, y: .489326149, z: .893603444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11463374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcf2703877128e4f817cfd1d12db8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Default:
+    Go: {fileID: 100000, guid: 9b48cb2a684f04e63a864e3fa4197da7, type: 2}
+    Angle: 0
+  Turn:
+    Go: {fileID: 100000, guid: f7fc29fb8bf844a36a6408f8c8c386e1, type: 2}
+    Angle: 0
+  Forward:
+    Go: {fileID: 100000, guid: 9b48cb2a684f04e63a864e3fa4197da7, type: 2}
+    Angle: 0
+  Tform:
+    Go: {fileID: 100000, guid: 29338e43bbc8e4d1f8fb96b5d8b76961, type: 2}
+    Angle: 0
+  Cross:
+    Go: {fileID: 100000, guid: 51d5e905212fe41a6ae2601aed598827, type: 2}
+    Angle: 0
+  End:
+    Go: {fileID: 100000, guid: 25cc86e7814f443bca6f04e86852071b, type: 2}
+    Angle: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Cross.Go
+      value: 
+      objectReference: {fileID: 100000, guid: 51d5e905212fe41a6ae2601aed598827, type: 2}
+    - target: {fileID: 0}
+      propertyPath: End.Go
+      value: 
+      objectReference: {fileID: 100000, guid: 25cc86e7814f443bca6f04e86852071b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Forward.Go
+      value: 
+      objectReference: {fileID: 100000, guid: 9b48cb2a684f04e63a864e3fa4197da7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Tform.Go
+      value: 
+      objectReference: {fileID: 100000, guid: 29338e43bbc8e4d1f8fb96b5d8b76961, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Turn.Go
+      value: 
+      objectReference: {fileID: 100000, guid: f7fc29fb8bf844a36a6408f8c8c386e1, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Default.Go
+      value: 
+      objectReference: {fileID: 100000, guid: 9b48cb2a684f04e63a864e3fa4197da7, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 175972}
+  m_IsPrefabParent: 1
